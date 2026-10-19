@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSI Gaming Monitor</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff;
+            color: #222;
+        }
+
+        /* Header */
+        header {
+            background: #071521;
+            color: white;
+            padding: 18px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            color: #00b7ff;
+        }
+
+        header input {
+            padding: 9px;
+            width: 45%;
+            border: none;
+            border-radius: 4px;
+        }
+
+        /* Navigation */
+        nav {
+            background: #f4f4f4;
+            padding: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #222;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        /* Product */
+        .product {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            padding: 35px;
+        }
+
+        .product img {
+            width: 40%;
+            max-width: 350px;
+        }
+
+        .details h1 {
+            font-size: 24px;
+            color: #344b9b;
+            margin-bottom: 20px;
+        }
+
+        .details h3 {
+            margin-bottom: 12px;
+        }
+
+        .details ul {
+            padding-left: 20px;
+            line-height: 1.7;
+        }
+
+        .details a {
+            color: #e65b32;
+            font-weight: bold;
+        }
+
+        /* Specification Table */
+        .specifications {
+            margin: 15px 7%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #384bb2;
+            color: white;
+            text-align: left;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        td:first-child {
+            font-weight: bold;
+            width: 30%;
+        }
+
+        tr:nth-child(even) {
+            background: #f8f8f8;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            header {
+                flex-wrap: wrap;
+                gap: 12px;
+            }
+
+            header input {
+                width: 100%;
+            }
+
+            nav {
+                gap: 12px;
+            }
+
+            .product {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 20px;
+            }
+
+            .product img {
+                width: 100%;
+                max-width: 350px;
+            }
+
+            .details h1 {
+                font-size: 21px;
+            }
+
+            .specifications {
+                margin: 15px;
+                overflow-x: auto;
+            }
+
+            th, td {
+                padding: 8px;
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.png"alt="">
+        <img src="search.png"alt="">
+        <img src="pc-builder.png"alt="">
+         <img src="offers.png"alt="">
+         <img src="gadget-fast.png"alt="">
+         <img src="account.png"alt=""> 
+    </header>
+
+    <nav>
+        <a href="#">Desktop</a>
+        <a href="#">Laptop</a>
+        <a href="#">Component</a>
+        <a href="#">Monitor</a>
+        <a href="#">UPS</a>
+        <a href="#">Phone</a>
+        <a href="#">Tablet</a>
+        <a href="#">Camera</a>
+        <a href="#">Networking</a>
+        <a href="#">Software</a>
+    </nav>
+
+    <section class="product">
+
+        <img
+            src="product.webp"alt="">
+
+        <div class="details">
+
+            <h1>MSI G2412V 23.8" FHD 100Hz IPS Esports Gaming Monitor</h1>
+
+            <h3>Key Features</h3>
+
+            <ul>
+                <li>Model: G2412V</li>
+                <li>Resolution: FHD (1920 × 1080)</li>
+                <li>Display: IPS, 100Hz, 1ms (MPRT)</li>
+                <li>Ports: 1x HDMI, 1x DP, 1x Earphone Out</li>
+                <li>Features: FreeSync, Anti-glare, Night Vision</li>
+            </ul>
+
+            <br>
+
+            <a href="#">View More Info</a>
+
+        </div>
+    </section>
+
+    <section class="specifications">
+
+        <table>
+            <tr>
+                <th colspan="2">Display Features</th>
+            </tr>
+
+            <tr>
+                <td>Display Size</td>
+                <td>23.8 Inch</td>
+            </tr>
+
+            <tr>
+                <td>Display Type</td>
+                <td>LED</td>
+            </tr>
+
+            <tr>
+                <td>Panel Type</td>
+                <td>IPS</td>
+            </tr>
+
+            <tr>
+                <td>Resolution</td>
+                <td>Full HD (1920 × 1080)</td>
+            </tr>
+
+            <tr>
+                <td>Pixel Pitch (MM)</td>
+                <td>0.2745(H) × 0.2745(V)</td>
+            </tr>
+
+            <tr>
+                <td>Display Surface</td>
+                <td>Anti-glare</td>
+            </tr>
+
+            <tr>
+                <td>Aspect Ratio</td>
+                <td>16:9</td>
+            </tr>
+
+            <tr>
+                <td>Viewing Angle</td>
+                <td>178° (H) / 178° (V)</td>
+            </tr>
+
+            <tr>
+                <td>Brightness</td>
+                <td>300 cd/m²</td>
+            </tr>
+
+            <tr>
+                <td>Contrast Ratio</td>
+                <td>1000:1</td>
+            </tr>
+
+            <tr>
+                <td>Refresh Rate</td>
+                <td>100Hz</td>
+            </tr>
+        </table>
+
+    </section>
+
+</body>
+</htm>
+
+
+ 
+</body>
+</html>
